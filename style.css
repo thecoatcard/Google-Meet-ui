@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+}
+
+header img {
+    width: 250px;
+}
+
+header ul {
+    display: flex;
+    margin-left: 50vw;
+}
+
+header ul li {
+    list-style: none;
+    margin: 0 0.7vw;
+    margin-top: 2vh;
+    width: fit-content;
+}
+
+.time {
+    font-family: sans-serif;
+    color: grey;
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 20vh auto;
+}
+
+.left {
+    margin-left: 3%;
+}
+
+.bold {
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.light {
+    font-weight: bold;
+    color: grey;
+    font-size: 1rem;
+}
+
+.container button {
+
+    color: white;
+    border-radius: 6px;
+    padding: 2px 5px;
+    font-size: 1.5rem;
+    background-color: rgb(20, 90, 155);
+}
+
+.container button span {
+    margin-top: 2px;
+}
+
+.container input[type="text"]::placeholder {
+    text-align: center;
+}
+
+.input {
+    margin-top: 3%;
+    display: flex;
+}
+
+.container input {
+    width: 15vw;
+    height: 4.5vh;
+    margin-top: 3px;
+    border: 2px solid gray;
+    margin-left: 10px;
+}
+
+.link {
+    margin-top: 10vh;
+    font-size: 20px;
+    margin-left: 5vw;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(20, 90, 155);
+}
+
+.right img {
+    margin-top: -8vh;
+    margin-left: 26vw;
+
+}
+
+.right img:hover {
+    opacity: 0.8;
+}
+
+.right span {
+    margin-left: 31.6vw;
+}
+
+span.mid {
+    font-size: 12px;
+    margin-left: 29vw;
+}
